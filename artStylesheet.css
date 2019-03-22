@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou');
+
+html{
+    font-family: sans-serif;
+    background: #e0e0e2;
+}
+h1{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 60px;
+}
+#background{
+    background-color:#4C4C4C;
+    text-align: center;
+    margin-left: calc(50% - 150px);
+    padding: 20px;
+    border-radius: 12px 12px 12px 12px;
+    width: 250px;
+    height: 350px;
+}
+.calc-view{
+    font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+    color: black; 
+    text-align: right;
+    font-size: 55px;
+    padding: 10px;
+    width: 220px;
+    margin: 5px;
+    background: #e0e0e2;
+    border-radius: 7px 7px 7px 7px;
+}
+input[type="number"] {
+    width: 116px;
+    height: 55px;
+    border:none;
+    text-align:center;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.equalButton{
+    background: #f5923d;
+    width: 47%;
+    height: 198px;
+    border: none;
+    color: white;
+    font-size:50px;
+    margin: 0.25% 1.75%;
+    border-radius: 7px 7px 7px 7px;
+    cursor: pointer;
+    float: right;
+}
+.equalButton:hover{
+    background:#c25a00;
+}
+
+.row{
+    margin-top: 5px;
+}
+
+/* Buttons for Operators */
+.row div {
+    border:none;
+    float:none;
+    margin: 0.025% 1.25%;
+    width:48%;
+    height:45px;
+}
+
+.row label, .row input {
+   display:block;
+}
+
+.row input[type="radio"] {
+   opacity:0.01;
+   z-index:100;
+}
+
+.row input[type="radio"]:checked + label,
+.Checked + label {
+   background:#c25a00;
+}
+
+.row label {
+    height:30px;
+    background-color: #f5923d;
+    padding:5px;
+    cursor:pointer;
+    z-index:90;
+    border-radius: 7px 7px 7px 7px;
+    color:white;
+    font-size:25px;
+}
+
+.row label:hover {
+    background:#c25a00;
+}

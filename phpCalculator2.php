@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <title>PHP Calculator</title>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="stylesheets2.css" />
 </head>
 <body>
@@ -59,7 +61,7 @@
                     </div>
                     <div>
                             <input type="radio" id="divide" value="divide" name="operator"/>
-                            <label for="divide">&#247</label>
+                            <label for="divide">&#247;</label>
                     </div>
 
                 </div>
